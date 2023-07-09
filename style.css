@@ -63,11 +63,7 @@
 }
 
 .thirdpage{
-    height: 100vh;
-    background-image: url(footer-bg.png);
-    background-color:black;
-    padding: 20px;
-    color: white;
+   
 }
 .btn3{
     background-color: white;
@@ -108,4 +104,31 @@
     padding: 17px 30px;
     border-radius: 30px;
     color: red;
+}
+.pic5{
+    height: 100px;
+    width: 100px;
+}
+.box{
+    text-align: center;
+    width:150px;
+    height: 100px;
+    padding: 50px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+.mainthirdpage{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-image: url(footer-bg.png);
+    background-color:black;
+    padding: 40px;
+    color: white;
+}
+.first-two-box{
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
 }
