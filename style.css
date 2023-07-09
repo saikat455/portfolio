@@ -28,6 +28,8 @@
     display: flex;
     align-items: center;
     margin: auto;
+    padding: auto;
+    justify-content: center;
 }
 .primary{
     color: red;
@@ -58,4 +60,52 @@
     padding: 10px;
     color: white;
     margin: auto;
+}
+
+.thirdpage{
+    height: 100vh;
+    background-image: url(footer-bg.png);
+    background-color:black;
+    padding: 20px;
+    color: white;
+}
+.btn3{
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 17px;
+    font-size: 20px;
+}
+.para{
+    width: 50%;
+}
+.pra{
+    padding: 10px;
+}
+
+.ol{
+    padding: 20px;
+    list-style: none;
+    margin-right: 0%;
+}
+.pic1{
+    height: 70px;
+    width: 70px;
+    border-radius: 35px;
+}
+.picDetail{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.foot{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.bbtn4{
+    padding: 17px 30px;
+    border-radius: 30px;
+    color: red;
 }
