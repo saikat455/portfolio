@@ -1,0 +1,61 @@
+.Container{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(178, 178, 169);
+    height: 60px;
+    padding: 10px;
+    text-align: center;
+   
+}
+.menus{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 22px;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.middlepage{
+    height: 100vh;
+    background-image: url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.primary{
+    color: red;
+}
+.title{
+    font-size: 50px;
+    color: white;
+}
+.btn1{
+    margin-top: 15px;
+    background-color: orangered;
+    border: none;
+    padding: 17px;
+    color: white;
+    font-size: 16px;
+}
+.btn2{
+    margin-top: 15px;
+    border: none;
+    padding: 17px;
+    color: black;
+    font-size: 16px;
+}
+.lorem{
+    width: 50%;
+}
+.lorem{
+    padding: 10px;
+    color: white;
+    margin: auto;
+}
